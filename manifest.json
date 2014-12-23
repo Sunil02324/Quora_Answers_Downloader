@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "css": [ "mystyles.css" ],
+      "js": [ "jquery.js", "content.js" ],
+      "matches": [ "http://*.quora.com/*/answer/*", "http://*.quora.com/*/answers/*", "https://*.quora.com/*/answer/*", "https://*.quora.com/*/answers/*" ]
+   } ],
+   "description": "Liked an Answer on Quora? Then why wait, Download it from here!",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "manifest_version": 2,
+   "name": "Quora Answers Downloader",
+   "version": "1.0"
+}
